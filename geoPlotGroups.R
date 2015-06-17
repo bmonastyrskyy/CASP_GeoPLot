@@ -28,7 +28,7 @@ source("functions/GroupsUtils.R");
 source("functions/Utils.R");
 
 # load config.R
-# the variables realted to database: HOST_IP, DB_USER, DB_NAME
+# the variables related to database: HOST_IP, DB_USER, DB_NAME
 source("config.R")
 
 # ---------------------------------------------------
