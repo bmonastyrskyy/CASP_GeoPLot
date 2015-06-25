@@ -67,6 +67,8 @@ ipinfo <- function(ip, format="dataframe"){
     if (format == 'dataframe'){
       result <- data.frame(t(res));
       result$ip <- ip;
+      result$latit <- as.numeric(result$latit);
+      result$longit <- as.numeric(result$longit);
       return(result);
     }
     return(res);
